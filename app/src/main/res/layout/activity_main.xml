@@ -7,7 +7,6 @@
     android:layout_marginHorizontal="30pt">
 
 
-
     <TextView
         android:id="@+id/tv_minus"
         android:layout_width="48dp"
@@ -15,6 +14,7 @@
         android:layout_gravity="start|center_vertical"
         android:layout_margin="8dp"
         android:background="@drawable/rectangle"
+        android:elevation="5dp"
         android:gravity="center"
         android:text="-"
         android:textColor="@color/white"
@@ -28,8 +28,22 @@
         android:layout_gravity="center_vertical|end"
         android:layout_margin="8dp"
         android:background="@drawable/rectangle"
+        android:elevation="5dp"
         android:gravity="center"
         android:text="+"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/rectangle"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:text="1"
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold" />
